@@ -16,7 +16,7 @@
   "author": "m430 <https://github.com/m430>",
   "repository": {
     "type": "git",
-    "url": "https://github.com/m430/flutter-bridge-js"
+    "url": "git+https://github.com/m430/flutter-bridge-js.git"
   },
   "files": [
     "dist",
