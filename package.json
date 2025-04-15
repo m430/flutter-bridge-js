@@ -1,0 +1,41 @@
+{
+  "name": "flutter-bridge",
+  "private": false,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "JavaScript SDK for seamless communication with Flutter applications via flutter_bridge_webview.",
+  "keywords": [
+    "flutter",
+    "webview",
+    "bridge",
+    "javascript",
+    "h5",
+    "hybrid"
+  ],
+  "license": "MIT",
+  "author": "m430 <https://github.com/m430>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/m430/flutter-bridge-js"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "main": "./dist/flutter-bridge.umd.js",
+  "module": "./dist/flutter-bridge.es.js",
+  "types": "./dist/main.d.ts",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "prepublishOnly": "npm run build"
+  },
+  "devDependencies": {
+    "@types/node": "^22.14.1",
+    "typescript": "~5.7.2",
+    "vite": "^6.2.0",
+    "vite-plugin-dts": "^4.5.3"
+  }
+}
