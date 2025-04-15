@@ -1,4 +1,4 @@
-# Flutter Bridge Js
+# Flutter Bridge JS
 
 跟[flutter_bridge_webview](https://github.com/m430/flutter_bridge_webview)配套使用的JS-SDK。实现了和flutter应用的双向通信。
 
